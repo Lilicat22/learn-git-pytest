@@ -4,7 +4,8 @@ import pytest
 
 sys.path.append(".")
 
-from exercise1.calculator import add, divide, multiply, subtract
+# from exercise1.calculator import divide, multiply
+from exercise1 import add, subtract, divide, multiply
 
 
 def test_add() -> None:
