@@ -16,8 +16,9 @@ def add(a: Number, b: Number) -> Number:
     Returns:
         The sum of a and b
     """
+    
     # TODO: Implement this function
-    return a + b
+    return a+b
 
 
 def subtract(a: Number, b: Number) -> Number:
@@ -68,3 +69,7 @@ def divide(a: Number, b: Number) -> Number:
     if b == 0:
     	raise ValueError("Cannot divide by zero")
     return a / b
+
+a=float(input("nbr1 entrez"))
+b=float(input("nbr2 entrez"))
+print("addition:",add(a,b))
